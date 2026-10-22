@@ -1,0 +1,18 @@
+:root{--bg:#f5eedc;--card:#fffdf6;--ink:#1f2a2a;--mut:#7a7466;--teal:#1b6f7a;--tint:#dcefec;--line:#e6dcc3;--good:#d9f0e4;--bad:#f8dcd8}
+@media(prefers-color-scheme:dark){:root{--bg:#181c1c;--card:#222828;--ink:#ece8dc;--mut:#9a9684;--tint:#1f3a3d;--line:#343b3b;--good:#1d4130;--bad:#4a2623}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,sans-serif;display:block}
+h1,h2,h3,.big{font-family:Georgia,'Times New Roman',serif;font-weight:600}
+#app{display:flex;min-height:100vh}aside{width:290px;padding:16px;background:var(--bg);border-right:1px solid var(--line);overflow:auto;height:100vh;position:sticky;top:0}
+.wrap{flex:1;max-width:900px;margin:0 auto;padding:28px 20px}
+button,input{font:inherit;color:inherit}aside button{display:flex;justify-content:space-between;width:100%;text-align:left;background:none;border:0;padding:8px 10px;border-radius:8px;cursor:pointer}
+aside button:hover{background:var(--tint)}aside a{cursor:pointer;color:var(--mut)}aside summary{font-weight:600;padding:6px 0;cursor:pointer}aside b{color:var(--mut);font-weight:400}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;margin:14px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}.grid .card{cursor:pointer}
+.pill{background:var(--tint);color:var(--teal);padding:2px 10px;border-radius:99px;font-size:13px}
+.bar{height:8px;background:var(--line);border-radius:9px;margin:12px 0}.bar i{display:block;height:100%;background:var(--teal);border-radius:9px}
+.opt{display:flex;gap:14px;width:100%;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px;margin:8px 0;cursor:pointer}
+.opt b{background:var(--line);border-radius:6px;padding:0 9px}.opt.sel{border-color:var(--teal)}.opt.good{background:var(--good);border-color:#2a9d6a}.opt.bad{background:var(--bad);border-color:#c55}
+.pri{background:var(--teal);color:#fff;border:0;border-radius:10px;padding:10px 20px;cursor:pointer;margin-top:10px}
+.chip{border:1px solid var(--line);background:none;border-radius:99px;padding:5px 14px;margin:4px;cursor:pointer}.chip.on{background:var(--tint);color:var(--teal)}
+.fb{background:var(--good);border-radius:10px;padding:10px 14px;margin-top:10px}.big{font-size:56px}.mut,small{color:var(--mut)}input{padding:6px;width:90px;border:1px solid var(--line);border-radius:8px;background:var(--card)}
+@media(max-width:760px){#app{flex-direction:column}aside{width:100%;height:auto;position:static}}

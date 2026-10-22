@@ -1,0 +1,15 @@
+{"title":"My Reviewers","tagline":"Practice, notes and mock exams","courses":[
+{"name":"Intro to Medicine Life","tag":"Midterm","topics":[
+{"name":"1 · Ancient Medicine","notes":"Mesopotamian medicine mixed spiritual healing (prayers, incantations, amulets, divination) with practical treatment (herbal remedies, wound care).","sections":[
+{"id":"meso","name":"Mesopotamia","questions":[
+{"q":"Which of these belongs to Mesopotamian SPIRITUAL medicine?","options":["Cleanliness and physical treatments","Surgery and dentistry","Herbal remedies and wound treatment","Incantations, amulets, divination and omens"],"answer":3,"explain":"Spiritual medicine used prayers, incantations, spells, amulets, astrology, divination and omens. The other options are practical medicine.","hy":true},
+{"q":"Which of these belongs to Mesopotamian PRACTICAL medicine?","options":["Omens","Herbal remedies and wound treatment","Amulets","Prayers to gods"],"answer":1,"explain":"Practical medicine covered herbal remedies and wound care."}]},
+{"id":"egypt","name":"Ancient Egypt","questions":[
+{"q":"The Ebers Papyrus is best known as a text on what?","options":["Military strategy","Medical remedies and treatments","Tax records","Star charts"],"answer":1,"explain":"The Ebers Papyrus is one of the oldest medical texts, full of remedies and treatments.","hy":true}]},
+{"id":"greece","name":"Ancient Greece","questions":[
+{"q":"Who is traditionally called the Father of Medicine?","options":["Galen","Hippocrates","Imhotep","Sushruta"],"answer":1,"explain":"Hippocrates of Kos is traditionally called the Father of Medicine."}]},
+{"id":"india","name":"Ancient India (Ayurveda)","questions":[
+{"q":"Which set lists the three doshas of Ayurveda?","options":["Vata, pitta, kapha","Blood, phlegm, bile","Yin, yang, qi","Sattva, rajas, tamas"],"answer":0,"explain":"Ayurveda describes vata, pitta and kapha as the three doshas."}]}]}]},
+{"name":"Intro to Psychology","tag":"Evals","topics":[{"name":"1 · Learning","notes":"Add your notes here.","sections":[{"id":"cond","name":"Conditioning","questions":[
+{"q":"Who is associated with classical conditioning experiments using dogs?","options":["Skinner","Pavlov","Freud","Piaget"],"answer":1,"explain":"Ivan Pavlov studied classical conditioning in dogs."}]}]}]}
+]}
